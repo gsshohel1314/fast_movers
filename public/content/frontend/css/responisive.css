@@ -1,0 +1,447 @@
+/* 
+Designer By: Md. Shahin Alom
+Design and develoment creative system ltd.
+*/
+
+
+/* XL (laptop) Device :1200px. */
+
+@media (min-width: 991px) and (max-width: 1199px) {
+
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 47px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .banner_part {
+        padding: 132px 0px 190px;
+    }
+
+    .track_img {
+        width: 700px;
+    }
+
+    .ft_content a img {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .van_img {
+        height: 500px;
+        width: 500px;
+        bottom: -1%;
+        right: 0%;
+    }
+
+    .btn_sing_up {
+        padding: 5px 11px;
+        font-size: 16px;
+    }
+
+    .sing_loging_content h1 {
+        font-size: 32px;
+    }
+
+    .sign_loging_start {
+        padding: 80px 0px 80px;
+    }
+
+    .sing_loging_content h5 {
+        font-size: 22px;
+    }
+
+    .loging_start {
+        padding-bottom: 0;
+    }
+
+    .header_menu ul li a {
+        font-size: 14px;
+        padding: 20px 8px;
+    }
+    .main_header_part_2 .header_loging_sing ul li a {
+            font-size: 16px;
+    }
+}
+
+
+/* -- middium Device -- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .py_90 {
+        padding: 75px 0px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .parcel_tag_main::after {
+        height: 30px;
+    }
+
+    .banner_part {
+        padding: 100px 0px 169px;
+    }
+
+    .common_heading h5 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .track_img {
+        width: 450px;
+    }
+
+    .main_footer {
+        padding: 40px 0px 60px;
+    }
+
+    .ft_content {
+        overflow: hidden;
+    }
+
+    .ft_content p a,
+    p {
+        font-size: 15px;
+    }
+
+    .ft_content a img {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .van_img {
+        height: 400px;
+        width: 400px;
+        bottom: 7%;
+        right: 0%;
+    }
+
+    .btn_sing_up {
+        padding: 5px 11px;
+        font-size: 16px;
+    }
+
+    .sing_loging_content h1 {
+        font-size: 32px;
+    }
+
+    .sign_loging_start {
+        padding: 50px 0px 50px;
+    }
+
+    .sing_loging_content_img img {
+        margin-top: 100px;
+    }
+
+    .loging_start {
+        padding-bottom: 0;
+    }
+
+    .parcel_shop_contnt_part .sing_loging_content a {
+        font-size: 17px;
+    }
+
+    .dlevali_cost h4 {
+        font-size: 19px;
+    }
+
+    .dlevali_cost {
+        padding: 10px;
+    }
+
+    .dlevali_cost h5,
+    .dlevali_cost ul li {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .sing_loging_content_cost {
+        min-height: 896px;
+    }
+}
+
+
+
+/* -- Phone Landscape -- */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .py_90 {
+        padding: 70px 0px;
+    }
+
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .banner_part {
+        padding: 94px 0px 119px;
+    }
+
+    .parcel_tag_main::after {
+        height: 28px;
+    }
+
+    .parcel_tag_srcbox .btn_tag_src {
+        padding: 0px 26px;
+        font-size: 18px;
+    }
+
+    .delivary_charge_part {
+        overflow-x: hidden;
+    }
+
+    .track_img {
+        right: -50px;
+        top: 70px;
+        width: 400px;
+    }
+
+    .ft_content a img {
+        margin-right: 9px;
+    }
+
+    .main_footer {
+        padding: 35px 0px 50px;
+    }
+
+    .van_img {
+        height: 200px;
+        width: 200px;
+        bottom: 35%;
+        right: 1%;
+    }
+
+    .btn_sing_up {
+        padding: 5px 11px;
+        font-size: 16px;
+    }
+
+    .sing_loging_content h1 {
+        font-size: 26px;
+    }
+
+    .sign_loging_start {
+        padding: 50px 0px 50px;
+    }
+
+    .loging_start {
+        padding-bottom: 0;
+    }
+
+    .header_menu ul li a {
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+
+    .main_header_part_2 .header_loging_sing ul li a {
+        margin-top: 25px;
+    }
+
+    .header_loging_sing_form .form-control {
+        margin-top: 33px;
+    }
+
+    .parcel_shop_contnt_part .sing_loging_content {
+        padding-top: 50px;
+    }
+
+    .parcel_shop_contnt_part .sing_loging_content h1,
+    .parcel_contnt_part .sing_loging_content h1 {
+        font-size: 40px;
+    }
+
+    .parcel_shop_contnt_part .sing_loging_content h5 a {
+        font-size: 22px;
+    }
+
+    .sing_loging_content_cost {
+        padding: 50px 0px;
+        min-height: 550px;
+    }
+}
+
+
+/* mobile size 480 small Device. */
+
+@media (min-width: 400px) and (max-width: 480px) {}
+
+
+/* Extra small Device. */
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, 0.95);
+        border-color: rgba(0, 0, 0, 0.95);
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.95)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .py_90 {
+        padding: 50px 0px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .header_loging_sing ul li a,
+    .header_loging_sing {
+        margin-top: 30px;
+    }
+
+    .header_loging_sing ul li a {
+        display: block;
+        padding: 17px 89px;
+    }
+
+    .banner_part {
+        transform: scale(1);
+        padding: 94px 0px 132px;
+    }
+
+    .parcel_tag_main::after {
+        height: 20px;
+        width: 40px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    .parcel_tag_srcbox .btn_tag_src {
+        padding: 0px 5px;
+        font-size: 17px;
+    }
+
+    .parcel_tag_srcbox .form-control {
+        margin-left: 5px;
+    }
+
+    .delivary_charge_part {
+        padding-top: 250px;
+    }
+
+    .track_img {
+        right: 0;
+        top: 38px;
+    }
+
+    .main_footer {
+        padding: 35px 0px 50px;
+    }
+
+    .van_img {
+        display: none;
+    }
+
+    .btn_sing_up {
+        padding: 5px 11px;
+        font-size: 16px;
+    }
+
+    .sing_loging_content h1 {
+        font-size: 26px;
+    }
+
+    .sign_loging_start {
+        padding: 50px 0px 50px;
+    }
+
+    .loging_start {
+        padding-bottom: 0;
+    }
+
+    .header_menu ul li a {
+        font-size: 14px;
+        padding: 20px 8px;
+    }
+
+    .header_loging_sing ul li a,
+    .header_loging_sing {
+        margin-top: 0px;
+    }
+
+    .parcel_shop_contnt_part .sing_loging_content a {
+        font-size: 20px;
+    }
+
+    .parcel_shop_contnt_part .sing_loging_content {
+        padding-top: 40px;
+    }
+
+    .parcel_shop_contnt_part .sing_loging_form {
+        padding: 20px 0px 40px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .sing_loging_content_cost {
+        padding: 60px 0px;
+        min-height: 550px;
+    }
+
+    .dlevali_cost {
+        padding: 12px;
+    }
+
+    .dlevali_cost h4 {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    .main_header_part_2 .header_loging_sing ul li a {
+        padding: 10px 50px;
+    }
+}

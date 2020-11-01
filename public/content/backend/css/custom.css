@@ -1,0 +1,106 @@
+/*Image Upload code start*/
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: #fff;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload {
+    width: 100px !important;
+    height: 100px;
+    margin-top: 0;
+    margin-left: -10px;
+}
+#img-upload-favicon {
+    width: 25% !important;
+    max-height: 80px;
+    margin-top: 20px;
+}
+
+#img-upload-flogo {
+    width: 50% !important;
+    max-height: 200px;
+    margin-top: 20px;
+}
+
+.btnu_browse {
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.input-group-btn {
+    border: 1px solid #ddd;
+    border-right: 0px;
+}
+
+.basic_favicon_img {
+    max-height: 50px;
+}
+
+/* panel head and footer button css */
+.btn-panel-head {
+    text-transform: uppercase !important;
+    font-weight: 600;
+}
+.btn-panel-footer {
+    text-transform: uppercase !important;
+    font-weight: 600;
+}
+
+/* input field border color chang when error show */
+.is-invalid {
+    border-color: #dc3545;
+}
+
+/* modal css start */
+.modal .modal-dialog .modal-content .modal-header {
+    margin: 0px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+}
+
+.modal .modal-dialog .modal-content .modal-body {
+    padding: 0px 0;
+}
+
+.modal .modal-dialog .modal-content {
+    box-shadow: none;
+    border-color: #DDDDDD;
+    padding: 30px;
+    border-radius: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.modal .modal-dialog .modal-content .modal-footer {
+    padding-top: 10px;
+}
+
+/* single view table css */
+table.view-table-custom tr td:first-child{
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+}
+table.view-table-custom tr td:last-child{
+    width: 68%;
+    text-align: left;
+    font-weight: normal;
+}
